@@ -1,3 +1,3 @@
-# Creative Developer Tools
+# Animation
 
-This directory contains the coursework for my Creative Developer Tools class. Everything here, and the directories that have their own repos are to help me learn. 
+In this project I learned how to use compass to animated an image from a sprite sheet. 
