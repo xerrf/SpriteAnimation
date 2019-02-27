@@ -1,25 +1,106 @@
+$icon-layout:horizontal;
+@import "icon/*.png";
+@include all-icon-sprites;
+
+
 body {
-    header {
-        @include box(pink);
-    }
-    nav {
-        @include box(lightblue);
-    }
+    background-color: #000066;
     main {
-        @include box(lightgreen);
-    }
-    aside {
-        @include box(rgb(248, 248, 101));
-    }
-    footer {
-        @include box(lightcoral);
+        margin: auto;
+        .row {
+            margin: auto;
+        }
     }
 }
 
-h1 {
-    font-family: $headerText;
+.eye {
+    display: inline-block;
+    width: 250px;
+    height: 19vh;
+    margin: 0px;
+    background-image: url("../img/icon-s68781db60c.png");
 }
 
-p {
-    font-family: $copyText;
+#eye1 {
+    animation: play 2.0s steps(16) infinite;
 }
+
+#eye2 {
+    animation: play 1.5s steps(16) infinite;
+}
+
+#eye3 {
+    animation: play 2.3s steps(16) infinite;
+}
+
+#eye4 {
+    animation: play 1.0s steps(16) infinite;
+}
+
+#eye5 {
+    animation: play 0.7s steps(16) infinite;
+}
+
+#eye6 {
+    animation: play 2.27s steps(16) infinite;
+}
+
+#eye7 {
+    animation: play 1.87s steps(16) infinite;
+}
+
+#eye8 {
+    animation: play 1.7s steps(16) infinite;
+}
+
+#eye9 {
+    animation: play 2.6s steps(16) infinite;
+}
+
+#eye10 {
+    animation: play 2.3s steps(16) infinite;
+}
+
+#eye11 {
+    animation: play 0.77s steps(16) infinite;
+}
+
+#eye12 {
+    animation: play 2.17s steps(16) infinite;
+}
+
+#eye13 {
+    animation: play 1.97s steps(16) infinite;
+}
+
+#eye14 {
+    animation: play 1.37s steps(16) infinite;
+}
+
+#eye15 {
+    animation: play 2.67s steps(16) infinite;
+}
+
+#eye16 {
+    animation: play 2.34s steps(16) infinite;
+}
+
+#eye17 {
+    animation: play 1.96s steps(16) infinite;
+}
+
+#eye18 {
+    animation: play 3.0s steps(16) infinite;
+}
+
+#eye19 {
+    animation: play 0.84s steps(16) infinite;
+}
+
+#eye20 {
+    animation: play 1.39s steps(16) infinite;
+}
+
+@keyframes play { 
+	100% {background-position: 4000px;}
+} 
