@@ -1,3 +1,3 @@
-# Sprite Animation
+# Creative Developer Tools
 
-In this project I learned to use compass to animate a sprite sheet. 
+This directory contains the coursework for my Creative Developer Tools class. Everything here, and the directories that have their own repos are to help me learn. 
